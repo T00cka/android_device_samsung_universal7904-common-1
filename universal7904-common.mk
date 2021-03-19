@@ -23,6 +23,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     lineage.fastcharge@1.0-service.samsung
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.universal7904
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.target.rc \
